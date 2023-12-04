@@ -1,0 +1,14 @@
+{
+  "name": "uniswapv2-defender",
+  "version": "1.0.0",
+  "description": "Uniswap v2 deployment with OpenZeppelin Defender 2.0",
+  "author": "cairoeth <101215230+cairoeth@users.noreply.github.com>",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.1"
+  },
+  "dependencies": {
+    "@openzeppelin/defender-sdk": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
