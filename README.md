@@ -15,3 +15,5 @@ npx hardhat compile
 ```
 
 To deploy, run the script with `node scripts/deploy.js`. Make sure that the artifact path is pointing to the build info json in the `artifacts` folder, and that the relayer you are using in Defender has enough funds for the deployment on Sepolia (or whatever network you want to use).
+
+Test.
