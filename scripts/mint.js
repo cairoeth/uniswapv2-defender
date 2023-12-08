@@ -19,18 +19,6 @@ async function main() {
   // Factory Deployment
   let deployment;
   let result;
-  
-  // deployment = await client.deploy.deployContract({
-  //   contractName: 'UniswapV2Factory',
-  //   contractPath: 'contracts/UniswapV2Factory.sol',
-  //   constructorInputs: [relayer.address],
-  //   network: 'sepolia',
-  //   artifactPayload: JSON.stringify(artifactFileFactory),
-  //   verifySourceCode: true,
-  // });
-  
-  // result = await client.deploy.getDeployedContract(deployment.deploymentId);
-  // console.log(`Factory Contract deployed to ${await result.address}`);
 
   // Token Deployment
   deployment = await client.deploy.deployContract({
